@@ -1,6 +1,6 @@
 This is package for use [Selectel](https://selectel.com/) as CDN service for Laravel 5.*
 
-Add to config/filesystems.php in "disks"" array:
+Add to config/filesystems.php in "disks" array:
 ```php
     'selectel' => [
         'driver'    => 'selectel',
