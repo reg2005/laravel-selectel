@@ -1,0 +1,21 @@
+{
+    "name": "reg2005/laravel-selectel",
+    "description": "This is package for use Selectel as CDN service in Laravel 5",
+    "license": "MIT",
+    "version": "1.0.0",
+    "require": {
+        "aws/aws-sdk-php-laravel": "^3.1",
+        "league/flysystem-rackspace": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Evgeniy Ryumin",
+            "email": "cmp08@ya.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Reg2005\\LaravelSelectel\\": "src"
+        }
+    }
+}
