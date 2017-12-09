@@ -17,5 +17,12 @@
         "psr-4": {
             "Reg2005\\LaravelSelectel\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Reg2005\\LaravelSelectel\\SelectelServiceProvider"
+            ]
+        }
     }
 }
